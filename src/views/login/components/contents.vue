@@ -85,7 +85,7 @@ export default {
           data.zhanghaoinpt === '' && data.passwordinpt === '')) {
         return false
       }
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         const phone = /^1[3456789]\d{9}$/
         if ((!phone.test(
           data.zhanghaoinpt) && data.passwordinpt.length < 6) || (!phone.test(
