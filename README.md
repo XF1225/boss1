@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # boss1
 
 ## Project setup
@@ -22,3 +23,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# boss1
+>>>>>>> c5e4e61a2ad28e2acb7a268274fc802b7098fc2c
