@@ -375,7 +375,7 @@ export default {
       }
     }
     const getdatas = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         data.qianduangoujia = res.qianduangoujia
         data.kaifayuyan = res.kaifayuyan
         data.changyongku = res.changyongku

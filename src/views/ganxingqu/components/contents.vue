@@ -75,7 +75,7 @@ export default {
     })
     const states = computed(() => store.state.shoucangID)
     const getdatas = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         // 没有 data.HomeContent = [] 的话，点击返回会重复不刷新数据
         data.HomeContent = []
         for (let i = 0; i < res.HomeContent.length; i++) {

@@ -66,7 +66,7 @@ export default {
     const faxiancontent = ref([])
     const dianzanclick = ref(true)
     const getdatas = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         faxiancontent.value = res.faxiancontent
       })
     }

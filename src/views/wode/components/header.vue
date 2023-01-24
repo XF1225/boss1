@@ -75,7 +75,7 @@ export default {
       }
     })
     const getdatas = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         data.wodeuserdesc = res.wodeuserdesc
         data.wodeuserdesc[3].num = store.state.shoucangID.length
         data.wodeuserdesc[0].num = res.contents.length

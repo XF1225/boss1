@@ -50,7 +50,7 @@ export default {
       HomeContent: []
     })
     const gettodata = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         data.HomeContent = res.HomeContent
       })
     }

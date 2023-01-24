@@ -35,7 +35,7 @@ export default {
     const inpt = ref(null)
     const emitter = myEventBus()
     const getdatas = () => {
-      getdata('/emoji.json').then(res => {
+      getdata('/api/emoji.json').then(res => {
         faceList.value = res.splice(0, 100)
       })
     }

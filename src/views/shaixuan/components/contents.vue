@@ -86,7 +86,7 @@ export default {
     })
     onMounted(() => { getdatas() })
     const getdatas = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         data.xueliyaoqiu = res.xueliyaoqiu
         data.xinzidaiyu = res.xinzidaiyu
         data.jingyanyaoqiu = res.jingyanyaoqiu
@@ -117,7 +117,7 @@ export default {
           }
         }
       } else {
-        getdata('/mock.json').then(res => {
+        getdata('/api/mock.json').then(res => {
           data.xueliyaoqiu = res.xueliyaoqiu
         })
         data.xlcheckbox.length = 0
@@ -167,7 +167,7 @@ export default {
           }
         }
       } else {
-        getdata('/mock.json').then(res => {
+        getdata('/api/mock.json').then(res => {
           data.jingyanyaoqiu = res.jingyanyaoqiu
         })
         data.jycheckbox.length = 0
@@ -199,7 +199,7 @@ export default {
           }
         }
       } else {
-        getdata('/mock.json').then(res => {
+        getdata('/api/mock.json').then(res => {
           data.hangye = res.hangye
         })
         data.hycheckbox.length = 0
@@ -231,7 +231,7 @@ export default {
           }
         }
       } else {
-        getdata('/mock.json').then(res => {
+        getdata('/api/mock.json').then(res => {
           data.gongsiguimo = res.gongsiguimo
         })
         data.gmcheckbox.length = 0
@@ -264,7 +264,7 @@ export default {
           }
         }
       } else {
-        getdata('/mock.json').then(res => {
+        getdata('/api/mock.json').then(res => {
           data.rongzijieduan = res.rongzijieduan
         })
         data.rzcheckbox.length = 0

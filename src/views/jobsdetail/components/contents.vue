@@ -125,7 +125,7 @@ export default {
       ]
     })
     const getdatas = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         data.HomeContent = res.HomeContent.filter(item => item.id === route.params.id)
         emitter.emit('conttitle', data.HomeContent[0].conttitle)
       })

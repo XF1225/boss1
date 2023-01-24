@@ -27,7 +27,7 @@ export default {
       getdatas()
     })
     const getdatas = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         HomeContent.value = res.HomeContent.filter(item => item.id === route.params.id)
       })
     }

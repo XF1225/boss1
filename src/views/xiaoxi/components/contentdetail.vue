@@ -36,7 +36,7 @@ export default {
     const router = useRouter()
     const contents = ref([])
     const getdatas = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         contents.value = res.contents
       })
     }

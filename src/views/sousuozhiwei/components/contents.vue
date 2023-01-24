@@ -47,7 +47,7 @@ export default {
       remen: []
     })
     const getdatas = () => {
-      getdata('/mock.json').then(res => {
+      getdata('/api/mock.json').then(res => {
         data.remenxiaoke = res.remenxiaoke
         data.remen = res.remen
       })
