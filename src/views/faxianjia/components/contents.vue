@@ -1,7 +1,7 @@
 <template>
   <div class="faxianjiaconts">
     <div class="faxianjia-top">
-      <img class="el-icon-arrow-down" src="/imgs/down.png" @click="toup">
+      <van-icon name="arrow-left" size=".5rem" @click="toup" />
     </div>
     <div class="chitang">
       <h4 class="chitang-h4">Hi,张秋千</h4>
@@ -96,9 +96,6 @@ export default {
     justify-content center
     align-items center
     border-radius .5rem .5rem 0 0
-    .el-icon-arrow-down
-      width .8rem
-      height .4rem
   .chitang
     width 100%
     padding-top 80%

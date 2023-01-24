@@ -1,6 +1,6 @@
 <template>
   <div class="loginheader">
-    <img class="el-icon-arrow-left toup" src="/imgs/down.png" @click="toup">
+    <van-icon name="arrow-left" size=".5rem" class="toup"  @click="toup" />
   </div>
 </template>
 
@@ -21,10 +21,6 @@ export default {
   line-height 1.2rem
   font-size .5rem
   padding-left .5rem
-.el-icon-arrow-left
-  transform rotate(90deg)
-  width .5rem
-  height .3rem
 .toup
   opacity 0
 </style>

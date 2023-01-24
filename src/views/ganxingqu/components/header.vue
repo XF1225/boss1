@@ -2,7 +2,7 @@
   <div>
     <div class="ganxingquheader">
       <div class="details">
-        <img class="el-icon-arrow-left" src="/imgs/down.png" @click="toup">
+        <van-icon name="arrow-left" size=".5rem" class="el-icon-arrow-left"  @click="toup" />
         <h4>我感兴趣的职位</h4>
       </div>
     </div>
@@ -47,9 +47,6 @@ export default {
   .el-icon-arrow-left
     position absolute
     left 0
-    transform rotate(90deg)
-    width .5rem
-    height .3rem
   .details h4
     font-size .45rem
 .kong

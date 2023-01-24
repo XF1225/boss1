@@ -2,7 +2,7 @@
   <div>
     <div class="shezhiheader">
       <div class="header-desc">
-        <img class="el-icon-arrow-left" src="/imgs/down.png" @click="shezhigoback">
+        <van-icon name="arrow-left" size=".5rem" class="el-icon-arrow-left"  @click="shezhigoback" />
         <h4 class="header-h4">{{title}}</h4>
       </div>
     </div>
@@ -45,9 +45,6 @@ export default {
     align-items center
     position relative
     .el-icon-arrow-left
-      transform rotate(90deg)
-      width .5rem
-      height .3rem
       position absolute
       left 0
     .header-h4

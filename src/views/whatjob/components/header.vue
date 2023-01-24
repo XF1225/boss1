@@ -1,6 +1,6 @@
 <template>
   <div class="whatjobheader">
-    <img class="el-icon-arrow-left" src="/imgs/down.png" @click="toup">
+    <van-icon name="arrow-left" size=".5rem" class="el-icon-arrow-left"  @click="toup" />
   </div>
 </template>
 
@@ -15,8 +15,5 @@ const toup = () => { router.go(-1) }
   width 100%
   height 2rem
 .el-icon-arrow-left
-  transform rotate(90deg)
-  width .5rem
-  height .3rem
   padding .2rem 0 0 1rem
 </style>

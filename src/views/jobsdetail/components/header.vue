@@ -3,7 +3,7 @@
     <div class="jobsheader">
       <div class="contents">
         <div class="cont-left">
-          <img class="el-icon-arrow-left" src="/imgs/down.png" @click="toreturn">
+          <van-icon name="arrow-left" size=".5rem" @click="toreturn" />
           <p class="cont-p" :style="popacity">{{title}}</p>
         </div>
         <div class="cont-right">
@@ -111,10 +111,6 @@ export default {
       display flex
       flex-direction row
       align-items center
-      .el-icon-arrow-left
-        transform rotate(90deg)
-        width .5rem
-        height .3rem
       .cont-p
         font-size .4rem
         padding-left .1rem

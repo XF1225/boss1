@@ -2,7 +2,7 @@
   <div>
     <div class="liaotianheader">
       <div class="htop">
-        <img class="el-icon-arrow-left" src="/imgs/down.png" @click="toup">
+        <van-icon name="arrow-left" size=".5rem" class="el-icon-arrow-left"  @click="toup" />
         <div class="hdesc" v-for="item of HomeContent" :key="item.id">
           <h4>{{item.contp.split('.')[0]}}</h4>
           <p>{{item.contconp.split(' ')[0]}}.{{item.contp.split('.')[1]}}</p>
@@ -95,9 +95,6 @@ export default {
     background white
     .el-icon-arrow-left
       padding-left .5rem
-      transform rotate(90deg)
-      width .5rem
-      height .3rem
       margin-bottom .5rem
     .el-icon-more
       padding-right .5rem

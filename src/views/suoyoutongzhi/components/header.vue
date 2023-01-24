@@ -1,10 +1,10 @@
 <template>
   <div class="tongzhiheader">
-    <img class="el-icon-arrow-left" src="/imgs/down.png" @click="toup">
+    <van-icon name="arrow-left" size=".5rem" class="el-icon-arrow-left"  @click="toup" />
     <div class="header-title" @click="changetongzhi">
       <h4>{{title}}</h4>
-      <img class="el-icon-arrow-down" src="/imgs/down.png" v-show="showarrow">
-      <img class="el-icon-arrow-up" src="/imgs/down.png" v-show="!showarrow">
+      <van-icon name="arrow-down" size=".5rem" class="el-icon-arrow-down" v-show="showarrow" />
+      <van-icon name="arrow-up" size=".5rem" class="el-icon-arrow-up" v-show="!showarrow" />
     </div>
     <div class="others" v-show="showothers">
       <div class="others-desc">
@@ -86,24 +86,14 @@ export default {
   .el-icon-arrow-left
     position absolute
     left .5rem
-    transform rotate(90deg)
-    width .5rem
-    height .3rem
   .header-title
     display flex
     flex-direction row
     align-items center
   .header-title h4
     font-size .4rem
-  .el-icon-arrow-down
-    width .3rem
-    height .15rem
+  .el-icon-arrow-down,.el-icon-arrow-up
     padding-left .1rem
-  .el-icon-arrow-up
-    width .3rem
-    height .15rem
-    transform rotate(180deg)
-    margin-left .1rem
   .others
     width 100%
     height 90vh
