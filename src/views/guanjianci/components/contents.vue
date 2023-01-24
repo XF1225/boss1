@@ -26,7 +26,7 @@
           <h4 class="qdgj-h4">web前端构架</h4>
           <div class="qdgj-right">
             <i v-show="qdgjchecked.length">{{qdgjchecked.length?qdgjchecked.length:''}}</i>
-            <van-icon :name="showarrow[0]==false?arrow-down:arrow-up" size=".5rem" class="el-icon-arrow-down"  @click="arrowclick(0)" />
+            <van-icon :name="showarrow[0]==false?'arrow-down':'arrow-up'" size=".5rem" class="el-icon-arrow-down"  @click="arrowclick(0)" />
           </div>
         </div>
         <div class="qdgj-desc" :class="showarrow[0]==true?'hywidth':''">
@@ -38,7 +38,7 @@
           <h4 class="kfyy-h4">开发语言</h4>
           <div class="kfyy-right">
             <i v-show="kfyychecked.length">{{kfyychecked.length?kfyychecked.length:''}}</i>
-            <van-icon :name="showarrow[1]==false?arrow-down:arrow-up" size=".5rem" class="el-icon-arrow-left"  @click="arrowclick(1)" />
+            <van-icon :name="showarrow[1]==false?'arrow-down':'arrow-up'" size=".5rem" class="el-icon-arrow-left"  @click="arrowclick(1)" />
           </div>
         </div>
         <div class="kfyy-desc" :class="showarrow[1]==true?'hywidth':''">
@@ -50,7 +50,7 @@
           <h4 class="cyk-h4">前端常用库</h4>
           <div class="cyk-right">
             <i v-show="cykchecked.length">{{cykchecked.length?cykchecked.length:''}}</i>
-            <van-icon :name="showarrow[2]==false?arrow-down:arrow-up" size=".5rem" class="el-icon-arrow-left"  @click="arrowclick(2)" />
+            <van-icon :name="showarrow[2]==false?'arrow-down':'arrow-up'" size=".5rem" class="el-icon-arrow-left"  @click="arrowclick(2)" />
           </div>
         </div>
         <div class="cyk-desc" :class="showarrow[2]==true?'hywidth':''">
@@ -106,7 +106,7 @@
           <h4 class="gjc-h4">推荐关键词</h4>
           <div class="gjc-right">
             <i v-show="gjcchecked.length">{{gjcchecked.length?gjcchecked.length:''}}</i>
-            <van-icon :name="showarrow[3]==false?arrow-down:arrow-up" size=".5rem" class="el-icon-arrow-left"  @click="arrowclick(3)" />
+            <van-icon :name="showarrow[3]==false?'arrow-down':'arrow-up'" size=".5rem" class="el-icon-arrow-left"  @click="arrowclick(3)" />
           </div>
         </div>
         <div class="gjc-desc" :class="showarrow[3]==true?'hywidth':''">
