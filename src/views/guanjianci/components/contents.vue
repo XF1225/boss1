@@ -25,7 +25,7 @@
         <div class="qdgj-row">
           <h4 class="qdgj-h4">web前端构架</h4>
           <div class="qdgj-right">
-            <i v-show="qdgjchecked.length">{{qdgjchecked.length?qdgjchecked.length:''}}</i>
+            <span v-show="qdgjchecked.length">{{qdgjchecked.length?qdgjchecked.length:''}}</span>
             <van-icon :name="showarrow[0]==false?'arrow-down':'arrow-up'" size=".5rem" class="el-icon-arrow-down"  @click="arrowclick(0)" />
           </div>
         </div>
@@ -37,7 +37,7 @@
         <div class="kfyy-row">
           <h4 class="kfyy-h4">开发语言</h4>
           <div class="kfyy-right">
-            <i v-show="kfyychecked.length">{{kfyychecked.length?kfyychecked.length:''}}</i>
+            <span v-show="kfyychecked.length">{{kfyychecked.length?kfyychecked.length:''}}</span>
             <van-icon :name="showarrow[1]==false?'arrow-down':'arrow-up'" size=".5rem" class="el-icon-arrow-left"  @click="arrowclick(1)" />
           </div>
         </div>
@@ -49,7 +49,7 @@
         <div class="cyk-row">
           <h4 class="cyk-h4">前端常用库</h4>
           <div class="cyk-right">
-            <i v-show="cykchecked.length">{{cykchecked.length?cykchecked.length:''}}</i>
+            <span v-show="cykchecked.length">{{cykchecked.length?cykchecked.length:''}}</span>
             <van-icon :name="showarrow[2]==false?'arrow-down':'arrow-up'" size=".5rem" class="el-icon-arrow-left"  @click="arrowclick(2)" />
           </div>
         </div>
@@ -61,7 +61,7 @@
         <div class="qdxm-row">
           <h4 class="qdxm-h4">前端项目</h4>
           <div class="qdxm-right">
-            <i v-show="qdxmchecked.length">{{qdxmchecked.length?qdxmchecked.length:''}}</i>
+            <span v-show="qdxmchecked.length">{{qdxmchecked.length?qdxmchecked.length:''}}</span>
           </div>
         </div>
         <div class="qdxm-desc">
@@ -72,7 +72,7 @@
         <div class="bzgf-row">
           <h4 class="bzgf-h4">前端标准/规范</h4>
           <div class="bzgf-right">
-            <i v-show="bzgfchecked.length">{{bzgfchecked.length?bzgfchecked.length:''}}</i>
+            <span v-show="bzgfchecked.length">{{bzgfchecked.length?bzgfchecked.length:''}}</span>
           </div>
         </div>
         <div class="bzgf-desc">
@@ -83,7 +83,7 @@
         <div class="cyzj-row">
           <h4 class="cyzj-h4">web前端常用组件</h4>
           <div class="cyzj-right">
-            <i v-show="cyzjchecked.length">{{cyzjchecked.length?cyzjchecked.length:''}}</i>
+            <span v-show="cyzjchecked.length">{{cyzjchecked.length?cyzjchecked.length:''}}</span>
           </div>
         </div>
         <div class="cyzj-desc">
@@ -94,7 +94,7 @@
         <div class="cyyq-row">
           <h4 class="cyyq-h4">前端常用引擎</h4>
           <div class="cyyq-right">
-            <i v-show="cyyqchecked.length">{{cyyqchecked.length?cyyqchecked.length:''}}</i>
+            <span v-show="cyyqchecked.length">{{cyyqchecked.length?cyyqchecked.length:''}}</span>
           </div>
         </div>
         <div class="cyyq-desc">
@@ -105,7 +105,7 @@
         <div class="gjc-row">
           <h4 class="gjc-h4">推荐关键词</h4>
           <div class="gjc-right">
-            <i v-show="gjcchecked.length">{{gjcchecked.length?gjcchecked.length:''}}</i>
+            <span v-show="gjcchecked.length">{{gjcchecked.length?gjcchecked.length:''}}</span>
             <van-icon :name="showarrow[3]==false?'arrow-down':'arrow-up'" size=".5rem" class="el-icon-arrow-left"  @click="arrowclick(3)" />
           </div>
         </div>
@@ -574,7 +574,7 @@ export default {
           flex-direction row
           justify-content space-between
           align-items center
-        .qdgj-right i,.kfyy-right i,.cyk-right i,.qdxm-right i,.bzgf-right i,.cyzj-right i,.cyyq-right i,.gjc-right i
+        .qdgj-right span,.kfyy-right span,.cyk-right span,.qdxm-right span,.bzgf-right span,.cyzj-right span,.cyyq-right span,.gjc-right span
           width .5rem
           height .5rem
           display flex
