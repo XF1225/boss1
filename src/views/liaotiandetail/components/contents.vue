@@ -13,7 +13,7 @@
       </div>
       <div class="jianchengdesc">
         <div class="touxiang">
-          <img src="/imgs/006.jpg">
+          <img src="imgs/006.jpg">
         </div>
         <div class="chenghu">{{item.contp}}</div>
       </div>
@@ -30,7 +30,7 @@
           <div class="wzbq-desc">{{item}}</div>
         </div>
         <div class="touxiang2">
-          <img src="/imgs/006.jpg">
+          <img src="imgs/006.jpg">
         </div>
       </div>
     </div>

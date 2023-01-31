@@ -1,7 +1,7 @@
 <template>
   <div class="tongzhicontents">
     <div class="kongkongruye">
-      <img src="/imgs/tongzhi.png">
+      <img src="imgs/tongzhi.png">
     </div>
   </div>
 </template>

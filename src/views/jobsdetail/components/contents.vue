@@ -19,7 +19,7 @@
       </div>
       <div class="bossdesc">
         <div class="desc-let">
-          <div class="bossimg"><img src="/imgs/006.jpg"></div>
+          <div class="bossimg"><img src="imgs/006.jpg"></div>
           <div class="details">
             <div class="details-top">
               <h4>{{item.contp.split('.')[0]}}</h4>
@@ -50,7 +50,7 @@
       <div class="companydetail">
         <div class="com-detail">
           <div>
-            <div class="com-img"><img src="/imgs/006.jpg"></div>
+            <div class="com-img"><img src="imgs/006.jpg"></div>
             <div class="com-desc">
               <p>{{item.contconp.split(' ')[0]}}</p>
               <span>{{item.contconp.split(' ')[1]!=undefined?item.contconp.split(' ')[1]+'.':''}}{{item.conpnum}}.电子商务</span>

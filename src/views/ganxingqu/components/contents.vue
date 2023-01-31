@@ -15,7 +15,7 @@
         </div>
         <div class="jianchengdesc">
           <div class="touxiang">
-            <img src="/imgs/006.jpg">
+            <img src="imgs/006.jpg">
             <i class="iconfont zhuanshi">&#xe61d;</i>
           </div>
           <div class="chenghu">{{item.contp}}</div>
